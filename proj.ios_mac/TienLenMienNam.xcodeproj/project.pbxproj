@@ -12,7 +12,6 @@
 		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
 		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
 		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
-		2F0006911CB3749F00C574AC /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 2F0006901CB3749F00C574AC /* .gitignore */; };
 		2F30020C1CB25E09007FF32C /* descriptor.cc in Sources */ = {isa = PBXBuildFile; fileRef = 2F3001B91CB25E09007FF32C /* descriptor.cc */; };
 		2F30020D1CB25E09007FF32C /* descriptor.pb.cc in Sources */ = {isa = PBXBuildFile; fileRef = 2F3001BB1CB25E09007FF32C /* descriptor.pb.cc */; };
 		2F30020E1CB25E09007FF32C /* descriptor.proto in Resources */ = {isa = PBXBuildFile; fileRef = 2F3001BD1CB25E09007FF32C /* descriptor.proto */; };
@@ -297,7 +296,6 @@
 		1D6058910D05DD3D006BFB54 /* TienLenMienNam-mobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TienLenMienNam-mobile.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		2F0006901CB3749F00C574AC /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		2F3001B71CB25E09007FF32C /* config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = config.h; sourceTree = "<group>"; };
 		2F3001B91CB25E09007FF32C /* descriptor.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = descriptor.cc; sourceTree = "<group>"; };
 		2F3001BA1CB25E09007FF32C /* descriptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = descriptor.h; sourceTree = "<group>"; };
@@ -694,7 +692,6 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
-				2F0006901CB3749F00C574AC /* .gitignore */,
 				46880B8319C43A87006E1F66 /* Classes */,
 				46880B7519C43A67006E1F66 /* Resources */,
 				1AC6FAE5180E9839004C840B /* cocos2d_libs.xcodeproj */,
@@ -1376,7 +1373,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2F0006911CB3749F00C574AC /* .gitignore in Resources */,
 				2F30033A1CB264A4007FF32C /* 12co.png in Resources */,
 				2F3002D61CB264A4007FF32C /* logo_viettel.png in Resources */,
 				2F3003031CB264A4007FF32C /* bgr_bottom_bar.png in Resources */,
